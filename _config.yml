@@ -1,20 +1,29 @@
 # Jekyll configuration
 markdown: kramdown
+
+owner:
+name: winners
+avatar: photo.jpg
+bio: "Mathematics"
+email: ourwinners@naver.com
+github:
+
 highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: 'en-uk'
+paginate: 10 # it will paginate after this number
+language: "en-uk"
 words_per_minute: 200
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+url: https://win.github.io
 
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
 # Website info
-title: Ghost
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+title: winners mathematics
+description:
+cover:
+logo: assets/built/images/winlogo.png
+logo_dark: assets/built/images/favicon.png
+favicon: assets/built/images/winlogo.png
 CNAME: #add cname for website to be created
 
 # Social info
@@ -27,7 +36,7 @@ facebook: ghost # replace by your username
 
 # Disqus
 disqus: False
-disqus_shortname: jekyllt # replace with your disqus username
+disqus_shortname: # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-69281367-1 # replace with your GA tracking identifier
@@ -67,13 +76,14 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyllt
-repo: jasper2
+username:
+repo:
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://jekyllt.github.io/jasper2/
-source_url:  https://github.com/jekyllt/jasper2/
+relative_source:
+destination: ../[GitHubPage]/
+production_url: https://win.github.io
+
+source_url:
 
 exclude:
   - assets/css

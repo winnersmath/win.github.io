@@ -1,16 +1,16 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
+javascript:
+  name: javascript
+  description: Deep Dive
+  cover:
+react:
+  name: react
   description: False
   cover: False
-fables:
-  name: fables
+winners:
+  name: winners
   description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
+  cover:
 getting-started:
-  name: getting-started
+  name: react
   description: False
   cover: False
