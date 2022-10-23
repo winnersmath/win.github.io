@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://win.github.io/tag/javascript/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://win.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-10-24T03:21:49+09:00</updated>
+  <id>https://win.github.io/tag/javascript/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">winners mathematics | </title>
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">javascript Study</title>
+      <link href="https://win.github.io/javascript-3" rel="alternate" type="text/html" title="javascript Study" />
+      <published>2022-10-12T00:00:00+09:00</published>
+      <updated>2022-10-12T00:00:00+09:00</updated>
+      <id>https://win.github.io/javascript-3</id>
+      <content type="html" xml:base="https://win.github.io/javascript-3">&lt;p&gt;Regular Expression (RegExp)&lt;br /&gt;
+문자열 함수 exec(), text(), match(), matchAll(), search(), replace(), replaceAll(), split() 등을 사용할 때, 대상으로 하는 문자의 종류가 많을 때 이를 포괄적으로 표현하기 위한 방법이다.&lt;br /&gt;
+기본적으로 선언하는 방법은 두 가지다.&lt;/p&gt;
+
+&lt;p&gt;const re = /ab+c/g;&lt;br /&gt;
+const re = new RegExp(‘ab+c’,’g’);&lt;/p&gt;
+
+&lt;p&gt;후자는 RegExp라는 JS 기본 내장 클래스를 사용하는 방법이다.&lt;br /&gt;
+지정해야 하는 특정 문자를 변수를 통해 받아오는 경우에는 이 방법을 사용한다.&lt;br /&gt;
+첫번째 매개변수는 지정하는 문자 혹은 범위를, 두번째 매개변수는 지정한 범위로 검색할 때 부여할 조건/속성이다.&lt;br /&gt;
+먼저 문자의 종류를 구분하는 방법이다.&lt;/p&gt;
+
+&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">Regular Expression (RegExp) 문자열 함수 exec(), text(), match(), matchAll(), search(), replace(), replaceAll(), split() 등을 사용할 때, 대상으로 하는 문자의 종류가 많을 때 이를 포괄적으로 표현하기 위한 방법이다. 기본적으로 선언하는 방법은 두 가지다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">javascript Study</title>
+      <link href="https://win.github.io/javascript-1" rel="alternate" type="text/html" title="javascript Study" />
+      <published>2022-10-11T20:00:00+09:00</published>
+      <updated>2022-10-11T20:00:00+09:00</updated>
+      <id>https://win.github.io/javascript-1</id>
+      <content type="html" xml:base="https://win.github.io/javascript-1">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">javascript Study</title>
+      <link href="https://win.github.io/javascript-2" rel="alternate" type="text/html" title="javascript Study" />
+      <published>2022-10-11T20:00:00+09:00</published>
+      <updated>2022-10-11T20:00:00+09:00</updated>
+      <id>https://win.github.io/javascript-2</id>
+      <content type="html" xml:base="https://win.github.io/javascript-2">&lt;p&gt;const re = /ab+c/g;&lt;br /&gt;
+const re = new RegExp(‘ab+c’,’g’);&lt;/p&gt;
+
+&lt;p&gt;후자는 RegExp라는 JS 기본 내장 클래스를 사용하는 방법이다.&lt;br /&gt;
+지정해야 하는 특정 문자를 변수를 통해 받아오는 경우에는 이 방법을 사용한다.&lt;br /&gt;
+첫번째 매개변수는 지정하는 문자 혹은 범위를, 두번째 매개변수는 지정한 범위로 검색할 때 부여할 조건/속성이다.&lt;br /&gt;
+먼저 문자의 종류를 구분하는 방법이다.&lt;/p&gt;
+
+&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">const re = /ab+c/g; const re = new RegExp(‘ab+c’,’g’);</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
