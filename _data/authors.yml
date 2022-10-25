@@ -1,0 +1,8 @@
+winners:
+  username: winners
+  name: winners
+  url_full: http://jekyllt.github.io/jasper2/
+  url:
+  bio: Winners Mathematics
+  picture: assets/built/images/winlogo.png
+  cover: False
