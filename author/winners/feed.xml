@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://win.github.io/author/winners/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://win.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-10-24T03:06:58+09:00</updated>
+  <id>https://win.github.io/author/winners/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">winners mathematics | </title>
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">중등수학</title>
+      <link href="https://win.github.io/middle" rel="alternate" type="text/html" title="중등수학" />
+      <published>2022-10-23T20:00:00+09:00</published>
+      <updated>2022-10-23T20:00:00+09:00</updated>
+      <id>https://win.github.io/middle</id>
+      <content type="html" xml:base="https://win.github.io/middle">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="middle" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">고등수학</title>
+      <link href="https://win.github.io/high" rel="alternate" type="text/html" title="고등수학" />
+      <published>2022-10-23T20:00:00+09:00</published>
+      <updated>2022-10-23T20:00:00+09:00</updated>
+      <id>https://win.github.io/high</id>
+      <content type="html" xml:base="https://win.github.io/high">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="high" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">초등수학</title>
+      <link href="https://win.github.io/basic" rel="alternate" type="text/html" title="초등수학" />
+      <published>2022-10-23T20:00:00+09:00</published>
+      <updated>2022-10-23T20:00:00+09:00</updated>
+      <id>https://win.github.io/basic</id>
+      <content type="html" xml:base="https://win.github.io/basic">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="basic" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-7" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-23T20:00:00+09:00</published>
+      <updated>2022-10-23T20:00:00+09:00</updated>
+      <id>https://win.github.io/react-7</id>
+      <content type="html" xml:base="https://win.github.io/react-7">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-6" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-22T20:00:00+09:00</published>
+      <updated>2022-10-22T20:00:00+09:00</updated>
+      <id>https://win.github.io/react-6</id>
+      <content type="html" xml:base="https://win.github.io/react-6">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">mathematics Study</title>
+      <link href="https://win.github.io/mathematics-1" rel="alternate" type="text/html" title="mathematics Study" />
+      <published>2022-10-22T00:00:00+09:00</published>
+      <updated>2022-10-22T00:00:00+09:00</updated>
+      <id>https://win.github.io/mathematics-1</id>
+      <content type="html" xml:base="https://win.github.io/mathematics-1">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="mathematics" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-5" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-21T20:00:00+09:00</published>
+      <updated>2022-10-21T20:00:00+09:00</updated>
+      <id>https://win.github.io/react-5</id>
+      <content type="html" xml:base="https://win.github.io/react-5">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">winners Study</title>
+      <link href="https://win.github.io/winners" rel="alternate" type="text/html" title="winners Study" />
+      <published>2022-10-21T10:00:00+09:00</published>
+      <updated>2022-10-21T10:00:00+09:00</updated>
+      <id>https://win.github.io/winners</id>
+      <content type="html" xml:base="https://win.github.io/winners">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="winners" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-4" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-20T20:00:00+09:00</published>
+      <updated>2022-10-20T20:00:00+09:00</updated>
+      <id>https://win.github.io/react-4</id>
+      <content type="html" xml:base="https://win.github.io/react-4">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-3" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-19T20:00:00+09:00</published>
+      <updated>2022-10-19T20:00:00+09:00</updated>
+      <id>https://win.github.io/react-3</id>
+      <content type="html" xml:base="https://win.github.io/react-3">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
