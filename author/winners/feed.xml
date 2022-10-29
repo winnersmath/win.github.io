@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://win.github.io/author/winners/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://win.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-10-29T17:27:41+00:00</updated>
+  <id>https://win.github.io/author/winners/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">winners mathematics | </title>
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">javascript Study</title>
+      <link href="https://win.github.io/javascript-6" rel="alternate" type="text/html" title="javascript Study" />
+      <published>2022-10-29T11:00:00+00:00</published>
+      <updated>2022-10-29T11:00:00+00:00</updated>
+      <id>https://win.github.io/javascript-6</id>
+      <content type="html" xml:base="https://win.github.io/javascript-6">&lt;p&gt;Javascript
+Chapter 27.배열&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]){&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`${array} is not an array`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;enqueue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dequeue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[...&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}};&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}());&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enqueue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dequeue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;큐를 클래스로 구현&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#array;
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`${array} is not an array`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#array=array;
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;enqueue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#array.push(value);
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dequeue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#array.shift();
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[...&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#array];
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enqueue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dequeue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;concat : 원본 배열은 변경되지 않는다.&lt;/p&gt;
+
+&lt;p&gt;push와 unshift 메서드는 concat 메서드로 대체할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;차이점 : push와 unshift는 원본 배열을 변경하지만 concat은 원본 배열을 변경하지 않는다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">Javascript Chapter 27.배열</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">mathematics Study</title>
+      <link href="https://win.github.io/mathematics" rel="alternate" type="text/html" title="mathematics Study" />
+      <published>2022-10-24T15:00:00+00:00</published>
+      <updated>2022-10-24T15:00:00+00:00</updated>
+      <id>https://win.github.io/mathematics</id>
+      <content type="html" xml:base="https://win.github.io/mathematics">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="mathematics" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">javascript Study</title>
+      <link href="https://win.github.io/javascript-4" rel="alternate" type="text/html" title="javascript Study" />
+      <published>2022-10-24T11:00:00+00:00</published>
+      <updated>2022-10-24T11:00:00+00:00</updated>
+      <id>https://win.github.io/javascript-4</id>
+      <content type="html" xml:base="https://win.github.io/javascript-4">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-7" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-23T11:00:00+00:00</published>
+      <updated>2022-10-23T11:00:00+00:00</updated>
+      <id>https://win.github.io/react-7</id>
+      <content type="html" xml:base="https://win.github.io/react-7">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">초등수학</title>
+      <link href="https://win.github.io/basic" rel="alternate" type="text/html" title="초등수학" />
+      <published>2022-10-23T11:00:00+00:00</published>
+      <updated>2022-10-23T11:00:00+00:00</updated>
+      <id>https://win.github.io/basic</id>
+      <content type="html" xml:base="https://win.github.io/basic">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="basic" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">중등수학</title>
+      <link href="https://win.github.io/middle" rel="alternate" type="text/html" title="중등수학" />
+      <published>2022-10-23T11:00:00+00:00</published>
+      <updated>2022-10-23T11:00:00+00:00</updated>
+      <id>https://win.github.io/middle</id>
+      <content type="html" xml:base="https://win.github.io/middle">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="middle" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">고등수학</title>
+      <link href="https://win.github.io/high" rel="alternate" type="text/html" title="고등수학" />
+      <published>2022-10-23T11:00:00+00:00</published>
+      <updated>2022-10-23T11:00:00+00:00</updated>
+      <id>https://win.github.io/high</id>
+      <content type="html" xml:base="https://win.github.io/high">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="high" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-6" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-22T11:00:00+00:00</published>
+      <updated>2022-10-22T11:00:00+00:00</updated>
+      <id>https://win.github.io/react-6</id>
+      <content type="html" xml:base="https://win.github.io/react-6">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">mathematics Study</title>
+      <link href="https://win.github.io/mathematics-1" rel="alternate" type="text/html" title="mathematics Study" />
+      <published>2022-10-21T15:00:00+00:00</published>
+      <updated>2022-10-21T15:00:00+00:00</updated>
+      <id>https://win.github.io/mathematics-1</id>
+      <content type="html" xml:base="https://win.github.io/mathematics-1">&lt;p&gt;[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만&lt;/p&gt;
+
+&lt;p&gt;[^abc] / [^a-c] : 대괄호 안의 범위만큼의 문자를 제외&lt;/p&gt;
+
+&lt;p&gt;\d / \D : 0~9의 모든 숫자. 대문자로 쓸 경우 숫자를 제외한 모든 문자&lt;/p&gt;
+
+&lt;p&gt;\w / \W : 모든 숫자와 알파벳 대소문자. 대문자로 쓸 경우 이를 제외한 문자&lt;/p&gt;
+
+&lt;p&gt;\s / \S : 모든 종류의 공백. space, tab, form feed, line feed, etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;b : a 혹은 b&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나머지는 Character classes 참고&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="mathematics" />
+      
+
+      
+        <summary type="html">[abc] / [a-c] : 대괄호 안의 범위만큼의 문자만</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">React Study</title>
+      <link href="https://win.github.io/react-5" rel="alternate" type="text/html" title="React Study" />
+      <published>2022-10-21T11:00:00+00:00</published>
+      <updated>2022-10-21T11:00:00+00:00</updated>
+      <id>https://win.github.io/react-5</id>
+      <content type="html" xml:base="https://win.github.io/react-5">&lt;p&gt;vertgwrtgrt&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>winners</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">vertgwrtgrt</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
