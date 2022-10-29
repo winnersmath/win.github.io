@@ -2,10 +2,10 @@
 markdown: kramdown
 
 owner:
-name: win
+name: Winnersmath
 avatar: photo.jpg
 bio: "Mathematics"
-email: winnersac@naver.com
+# email: winnersac@naver.com
 github:
 
 highlighter: rouge
