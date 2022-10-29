@@ -2,7 +2,7 @@
 markdown: kramdown
 
 owner:
-name: Winnersmath
+name: winners
 avatar: photo.jpg
 bio: "Mathematics"
 # email: winnersac@naver.com
@@ -80,7 +80,7 @@ username:
 repo:
 branch: master
 relative_source:
-destination: ../[GitHubPage]/
+destination: ../win/
 production_url: https://win.github.io
 
 source_url:
